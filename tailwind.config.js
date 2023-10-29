@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import { screens as _screens } from 'tailwindcss/defaultTheme'
+import { screens as _screens } from 'tailwindcss/defaultTheme';
 
 export default {
   content: ['./src/**/*.{js,ts,jsx,tsx}', './index.html'],
@@ -12,5 +12,4 @@ export default {
     extend: {},
   },
   plugins: [],
-}
-
+};
