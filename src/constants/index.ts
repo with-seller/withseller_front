@@ -10,3 +10,5 @@ const DEVICE_SIZE = {
   tablet: 768,
   laptop: 1024,
 };
+
+export { PATH, DEVICE_SIZE };

@@ -1,9 +1,10 @@
 import { Theme } from '@emotion/react';
+import { DEVICE_SIZE } from '../constants';
 
 const media = {
-  mobile: `screen and (min-width: ${DEVICE_SIZE.mobile})`,
-  tablet: `screen and (min-width: ${DEVICE_SIZE.tablet})`,
-  laptop: `screen and (min-width: ${DEVICE_SIZE.laptop})`,
+  mobile: `@media screen and (min-width: ${DEVICE_SIZE.mobile}px)`,
+  tablet: `@media screen and (max-width: ${DEVICE_SIZE.tablet}px)`,
+  laptop: `@media screen and (max-width: ${DEVICE_SIZE.laptop}px)`,
 };
 
 const theme: Theme = {

@@ -3,13 +3,17 @@ import { createRoot } from 'react-dom/client';
 import App from './App';
 import './index.css';
 import { ThemeProvider } from '@emotion/react';
-import theme from '@/styles/theme';
+
+import theme from './styles/theme';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const root = document.getElementById('root') as HTMLElement;
 const rootElement = createRoot(root);
 
 rootElement.render(
   <ThemeProvider theme={theme}>
-    <App />
+    <Router>
+      <App />
+    </Router>
   </ThemeProvider>
 );

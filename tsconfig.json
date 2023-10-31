@@ -9,10 +9,10 @@
     "esModuleInterop": true,
     "jsxImportSource": "@emotion/react",
     "moduleResolution": "node",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    }
+    "baseUrl": "."
+    //    "paths": {
+    //      "@/*": ["src/*"]
+    //    }
   },
   "exclude": ["node_modules"],
   "include": ["src"]
