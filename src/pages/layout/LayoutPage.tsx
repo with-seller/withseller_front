@@ -6,10 +6,10 @@ interface LayoutPageProps {
   children: ReactElement;
 }
 
-function LayoutPage({ children }) {
+function LayoutPage({ children } : LayoutPageProps) {
   const theme = useTheme();
 
-  return <div>{children}</div>;
+  return <div css={layoutPage()}>{children}</div>;
 }
 
 export default LayoutPage;
