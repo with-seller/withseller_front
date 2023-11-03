@@ -9,7 +9,7 @@ interface LayoutPageProps {
 function LayoutPage({ children } : LayoutPageProps) {
   const theme = useTheme();
 
-  return <div css={layoutPage()}>{children}</div>;
+  return <div sx={layoutPage()}>{children}</div>;
 }
 
 export default LayoutPage;
