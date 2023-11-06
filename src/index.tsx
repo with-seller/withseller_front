@@ -6,6 +6,8 @@ import { ThemeProvider } from '@emotion/react';
 import theme from './styles/theme';
 import { BrowserRouter as Router } from 'react-router-dom';
 
+import './index.css';
+
 const root = document.getElementById('root') as HTMLElement;
 const rootElement = createRoot(root);
 
