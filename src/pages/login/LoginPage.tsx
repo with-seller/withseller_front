@@ -7,7 +7,7 @@ function LoginPage() {
                 <div className="px-10 py-8">
                     <form className="space-y-6">
                         <div>
-                            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1"> 아이디 </label>
+                            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1"> 이메일 </label>
                             <input id="email" name="email" type="email" autoComplete="email" required className="block w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"/>
                         </div>
                         <div>
