@@ -7,6 +7,7 @@ import theme from './styles/theme';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import './index.css';
+import LayoutPage from './pages/layout/LayoutPage';
 
 const root = document.getElementById('root') as HTMLElement;
 const rootElement = createRoot(root);
@@ -14,7 +15,9 @@ const rootElement = createRoot(root);
 rootElement.render(
   <ThemeProvider theme={theme}>
     <Router>
-      <App />
+      <LayoutPage>
+        <App />
+      </LayoutPage>
     </Router>
   </ThemeProvider>
 );
