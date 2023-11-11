@@ -6,7 +6,7 @@ interface LayoutPageProps {
   children: ReactElement;
 }
 
-function LayoutPage({ children } : LayoutPageProps) {
+function LayoutPage({ children }: LayoutPageProps) {
   const theme = useTheme();
 
   return <div>{children}</div>;
