@@ -2,10 +2,10 @@ import React from 'react';
 
 function LoginPage() {
   return (
-      <div className="bg-gradient-to-r from-purple-500 to-indigo-500 min-h-screen flex items-center justify-center">
+      <div>
         <div className="bg-white w-full max-w-md rounded-lg shadow-lg">
           <div className="px-10 py-8">
-            <h2 className="text-2xl text-center text-gray-700 mb-6">위드셀에 오신 걸 환영합니다.</h2>
+            <h2 className="text-2xl text-center text-gray-700 mb-6">위드셀러에 오신 걸 환영합니다.</h2>
             <form className="space-y-6">
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
