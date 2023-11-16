@@ -1,9 +1,16 @@
 import React from 'react';
+import Logo from "../../assets/react.svg";
 
 function LoginPage() {
   return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="bg-white p-8 rounded shadow-md w-96">
+      <div className=" flex items-center justify-center ">
+        <div className="bg-white mb-4 p-4 rounded shadow-md w-96 space-y-2">
+          <div className="flex items-center justify-center">
+            <a href="/" className="-m-1.5 p-1.5">
+              <span className="sr-only">위드셀러</span>
+              <img className="h-8 w-auto" src={Logo} alt="위드셀러" />
+            </a>
+          </div>
           <form>
             <div className="mb-4">
               <input
@@ -11,7 +18,7 @@ function LoginPage() {
                   type="text"
                   id="username"
                   name="username"
-                  className="mt-1 p-2 border border-indigo-300 outline-3 outline-indigo-500 hover:border-indigo-500 rounded w-full"
+                  className="mt-2 p-2 border border-indigo-300 outline-3 outline-indigo-500 hover:border-indigo-500 rounded w-full"
               />
             </div>
             <div className="mb-4">
@@ -41,21 +48,6 @@ function LoginPage() {
             >
               로그인
             </button>
-            {/*<div className="mt-4">*/}
-            {/*  <hr className="mb-2 border-t border-gray-300" />              */}
-            {/*  <div className="flex flex-col mt-2">*/}
-            {/*    <button className="bg-blue-600 text-white p-2 rounded hover:bg-blue-700 mb-2">*/}
-            {/*      Facebook 로그인*/}
-            {/*    </button>*/}
-            {/*    <button className="bg-red-500 text-white p-2 rounded hover:bg-red-600 mb-2">*/}
-            {/*      Google 로그인*/}
-            {/*    </button>*/}
-            {/*    /!* GitHub 로그인 버튼 추가 (추후 구현 예정) *!/*/}
-            {/*    <button className="bg-black text-white p-2 rounded hover:bg-gray-700">*/}
-            {/*      GitHub 로그인*/}
-            {/*    </button>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
           </form>
         </div>
       </div>
