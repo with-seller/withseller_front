@@ -17,8 +17,11 @@ function LayoutPage({ children }: LayoutPageProps) {
             </a>
           </div>
           <div>
-            <a href="/login" className="text-md font-semibold leading-6">
+            <a href="/login" className="text-md font-semibold leading-6 mr-4">
               로그인
+            </a>
+            <a href="/signup" className="text-md font-semibold leading-6">
+              회원가입
             </a>
           </div>
         </nav>

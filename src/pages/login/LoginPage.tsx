@@ -37,7 +37,7 @@ function LoginPage() {
               </a>
             </div>
             <div>
-              <a href="#" className="text-sm text-indigo-500 hover:underline">
+              <a href="signup" className="text-sm text-indigo-500 hover:underline">
                 회원가입
               </a>
             </div>

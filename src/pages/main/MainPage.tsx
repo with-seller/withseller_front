@@ -11,14 +11,12 @@ function MainPage() {
           alt="서비스 이미지"
           className="rounded-lg shadow-md max-w-full mb-4"
         />
-        <button
+        <a
+            href="/login"
           className="bg-gradient-to-r from-purple-500 bg-indigo-500 text-white py-2 px-40 rounded-full hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo active:bg-indigo-800"
-          onClick={() => {
-            // 클릭 시 실행할 동작 추가
-          }}
         >
           시작하기
-        </button>
+        </a>
       </div>
     </div>
   );
