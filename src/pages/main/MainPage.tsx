@@ -12,7 +12,7 @@ function MainPage() {
           className="rounded-lg shadow-md max-w-full mb-4"
         />
         <a
-            href="/login"
+          href="/login"
           className="bg-gradient-to-r from-purple-500 bg-indigo-500 text-white py-2 px-40 rounded-full hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo active:bg-indigo-800"
         >
           시작하기

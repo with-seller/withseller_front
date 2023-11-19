@@ -10,7 +10,7 @@ function SignupPage() {
             <span className="sr-only">위드셀러</span>
             <img className="h-8 w-auto" src={Logo} alt="위드셀러" />
           </a>
-        <h2 className="text-2xl font-bold text-gray-800">회원가입</h2>
+          <h2 className="text-2xl font-bold text-gray-800">회원가입</h2>
         </div>
         <form>
           <div className="mb-4">
@@ -101,7 +101,7 @@ function SignupPage() {
             />
           </div>
           <button
-              disabled={true}
+            disabled={true}
             type="submit"
             className="from-purple-500 to-indigo-500 bg-gradient-to-r text-white p-2 rounded hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300 w-full"
           >
