@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // React Router를 사용하는 경우
 
 function MainPage() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <div className="text-center">
+    <div className="flex min-h-screen">
+      {/* 메인 콘텐츠 */}
+      <div className="flex-1 p-6">
         <h1 className="text-4xl font-bold mb-4">환영합니다!</h1>
         <p className="text-lg mb-8">위드셀러의 특별한 서비스를 경험해보세요.</p>
         <img
