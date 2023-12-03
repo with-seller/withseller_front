@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // React Router를 사용하는 경우
 
 function MainPage() {
   return (

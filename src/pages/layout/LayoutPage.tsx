@@ -1,6 +1,5 @@
 import { ReactElement } from 'react';
 import Logo from '../../assets/react.svg';
-import { Link } from 'react-router-dom';
 import MenuPage from '../menu/MenuPage'; // React Router를 사용하는 경우
 
 interface LayoutPageProps {
